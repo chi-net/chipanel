@@ -26,6 +26,6 @@ Wherever platform nginx and docker can run, chipanel will support!
 ### Easy to deploy
 Only a shell can deploy the panel!
 
-## LICNESE
+## LICENSE
 
 All of these project licnesed with GPL-3.
