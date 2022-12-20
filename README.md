@@ -28,4 +28,4 @@ Only a shell can deploy the panel!
 
 ## LICENSE
 
-All of these project licnesed with GPL-3.
+All of these project licensed with GPL-3.
