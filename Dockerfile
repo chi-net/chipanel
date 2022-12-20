@@ -8,7 +8,10 @@ RUN apt-get update -y && apt-get install ca-certificates curl gnupg wget lsb-rel
     && echo "deb http://nginx.org/packages/debian/ buster nginx" >> /etc/apt/sources.list \
     && echo "deb-src http://nginx.org/packages/debian/ buster nginx"  >> /etc/apt/sources.list \
     && wget http://nginx.org/keys/nginx_signing.key && apt-key add nginx_signing.key \
-    && apt-get update -y && apt-get install nginx -y && service nginx start
+    && apt-get update -y && apt-get install nginx -y && service nginx start \
+    && curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - \
+    && apt-get update -y && apt-get install nodejs -y \
+    && npm install yarn -g
 
 EXPOSE 80 443 8080
 ENTRYPOINT bash
