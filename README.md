@@ -20,7 +20,7 @@ chi Panel docker image is based on debian image and it is really light
 ### Safe
 chi Panel only needs your docker run pid file [/var/run/docker.sock] to manage the deploys and status in docker. And the data you give is safe.
 
-### Muti-platformed
+### Multi-platformed
 Wherever platform nginx and docker can run, chipanel will support! 
 
 ### Easy to deploy
